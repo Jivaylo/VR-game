@@ -2232,7 +2232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5067426400819472621, guid: 52c57591e4f6bf14484f796e029e5d70, type: 3}
       propertyPath: sceneToLoad
-      value: Assets/Scenes/Dev Scenes/VR Scene
+      value: Scenes/Dev Scenes/VR Scene
       objectReference: {fileID: 0}
     - target: {fileID: 6791377464173962913, guid: 52c57591e4f6bf14484f796e029e5d70, type: 3}
       propertyPath: m_Mesh
