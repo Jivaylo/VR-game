@@ -127,10 +127,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 521659953754216739, guid: 9be4631163ffea54280e527a5847d520, type: 3}
-      propertyPath: m_Name
-      value: XR Origin (XR Rig) Modified
-      objectReference: {fileID: 0}
     - target: {fileID: 521659953754216736, guid: 9be4631163ffea54280e527a5847d520, type: 3}
       propertyPath: m_LocalPosition.x
       value: -247.3
@@ -170,6 +166,10 @@ PrefabInstance:
     - target: {fileID: 521659953754216736, guid: 9be4631163ffea54280e527a5847d520, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 521659953754216739, guid: 9be4631163ffea54280e527a5847d520, type: 3}
+      propertyPath: m_Name
+      value: XR Origin (XR Rig) Modified
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2229,6 +2229,10 @@ PrefabInstance:
     - target: {fileID: 4608544067860275272, guid: 52c57591e4f6bf14484f796e029e5d70, type: 3}
       propertyPath: m_VersionIndex
       value: 1305
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067426400819472621, guid: 52c57591e4f6bf14484f796e029e5d70, type: 3}
+      propertyPath: sceneToLoad
+      value: Assets/Scenes/Dev Scenes/VR Scene
       objectReference: {fileID: 0}
     - target: {fileID: 6791377464173962913, guid: 52c57591e4f6bf14484f796e029e5d70, type: 3}
       propertyPath: m_Mesh
