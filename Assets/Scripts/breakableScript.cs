@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class breakableScript : MonoBehaviour
 {
-    private int durability = 3;
+    [SerializeField] private int durability = 3;
 
     private void OnCollisionEnter(Collision collision)
     {

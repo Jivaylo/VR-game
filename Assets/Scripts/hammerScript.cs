@@ -18,7 +18,7 @@ public class hammerScript : MonoBehaviour
             Debug.Log("hammer durability is "+ durability);
             
             if (durability == 0)
-                Destroy(gameObject);
+                Destroy(transform.parent.gameObject);
         }
     }
 }

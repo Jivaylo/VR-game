@@ -455,6 +455,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce1b9943e15683a4daf997d158727fa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  sceneToLoad: 
+  locked: 0
 --- !u!1 &4552623291852472533
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,6 +471,7 @@ GameObject:
   - component: {fileID: 4219108837605176384}
   - component: {fileID: 4091282137979510124}
   - component: {fileID: 4503154451830658799}
+  - component: {fileID: 3933010297786140863}
   m_Layer: 0
   m_Name: Door Placeholder
   m_TagString: Untagged
@@ -811,3 +814,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.15412903, y: 2.9746027, z: 1.8808298}
   m_Center: {x: -14.655731, y: -0.53368473, z: -5.762192}
+--- !u!114 &3933010297786140863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4552623291852472533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b87aacf88e72fa248b6c7239ca534f23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::breakableScript
+  durability: 5
