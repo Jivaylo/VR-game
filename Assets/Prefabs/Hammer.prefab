@@ -401,7 +401,6 @@ GameObject:
   - component: {fileID: 3368501386028236839}
   - component: {fileID: 6455023308041822366}
   - component: {fileID: 5244731195017820413}
-  - component: {fileID: 4177215382494016273}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -743,19 +742,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.114150465, y: 0.10650788, z: 0.26967525}
   m_Center: {x: -0.006889701, y: -0.043122947, z: 0}
---- !u!114 &4177215382494016273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8087234403385843030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a456e59a4e5644f4281352d5f0f21ff5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::hammerScript
-  durability: 5
 --- !u!1 &8669569466032536425
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,6 +753,7 @@ GameObject:
   - component: {fileID: 6090094432242910838}
   - component: {fileID: 8647040831737518820}
   - component: {fileID: 9002341258615806891}
+  - component: {fileID: 7227734301282472338}
   m_Layer: 0
   m_Name: Hammer
   m_TagString: Untagged
@@ -948,3 +935,17 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &7227734301282472338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669569466032536425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a456e59a4e5644f4281352d5f0f21ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::hammerScript
+  headCollider: {fileID: 5244731195017820413}
+  durability: 5
