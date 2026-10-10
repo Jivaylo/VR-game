@@ -1,0 +1,8 @@
+Rooster.wav and rooster-crow.wav
+Medium rooster crowing by alys, 6 May 2008, PDSounds record 539.
+Public domain recording. Both files are mono 24 kHz PCM conversions.
+https://commons.wikimedia.org/wiki/File:Medium_rooster_crowing.ogg
+
+Voice recordings use locally installed Windows speech voices.
+Click.wav, City.wav, Wind.wav, Stream.wav, Tool.wav and Bird.wav are synthesized sounds made for this project.
+rooster-surprised.wav and hologram-glass.wav are synthesized effects with no third-party samples.

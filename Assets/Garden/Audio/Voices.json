@@ -1,0 +1,574 @@
+{
+  "lines": [
+    {
+      "speaker": "BRIDGE",
+      "text": "Bridge connected. Network control retained.",
+      "path": "Assets/Garden/Audio/Story/Bridge001.wav"
+    },
+    {
+      "speaker": "BRIDGE",
+      "text": "Connect the bridge to the forearm port first.",
+      "path": "Assets/Garden/Audio/Story/Bridge002.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "A discrepancy has been identified. Please classify the component.",
+      "path": "Assets/Garden/Audio/Story/Civic001.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "A presentation interruption has been corrected.",
+      "path": "Assets/Garden/Audio/Story/Civic042.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Assembly station. Please open the doors before leaving the carriage.",
+      "path": "Assets/Garden/Audio/Story/Civic002.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Breakfast is ready at Commons. Follow the lighted route.",
+      "path": "Assets/Garden/Audio/Story/Civic003.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Breakfast is waiting at Commons. Your route is prepared.",
+      "path": "Assets/Garden/Audio/Story/Civic004.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Breakfast service is available at Commons. Assembly follows at nine.",
+      "path": "Assets/Garden/Audio/Story/Civic005.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Commons is serving breakfast. Please follow the illuminated route.",
+      "path": "Assets/Garden/Audio/Story/Civic006.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Confirm approved units. Reject discrepancies.",
+      "path": "Assets/Garden/Audio/Story/Civic007.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Dinner has been selected to complement your day. Please request delivery at the receiver.",
+      "path": "Assets/Garden/Audio/Story/Civic008.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Food, shelter and medical support cannot be guaranteed beyond the perimeter.",
+      "path": "Assets/Garden/Audio/Story/Civic009.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Good morning. Your day is ready.",
+      "path": "Assets/Garden/Audio/Story/Civic010.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "I can't tell you what happens next.",
+      "path": "Assets/Garden/Audio/Story/Civic011.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Inspect the component. Try that sample again.",
+      "path": "Assets/Garden/Audio/Story/Civic012.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Local connection lost. Please remain at a registered point. A recovery unit is approaching.",
+      "path": "Assets/Garden/Audio/Story/Civic013.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "No changes are required for tomorrow. Your rest period is ready.",
+      "path": "Assets/Garden/Audio/Story/Civic014.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "No supported destination is available.",
+      "path": "Assets/Garden/Audio/Story/Civic015.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Nutritional requirements met. Enjoyment profile applied. Your metro service to Assembly is ready.",
+      "path": "Assets/Garden/Audio/Story/Civic016.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Presentation services will end. Navigation assistance and personalized environments will be unavailable.",
+      "path": "Assets/Garden/Audio/Story/Civic017.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Production variance detected. Do not assist the machinery. This station is being made safe.",
+      "path": "Assets/Garden/Audio/Story/Civic018.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Residence station. Please open the doors before leaving the carriage.",
+      "path": "Assets/Garden/Audio/Story/Civic019.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Returned module ready for classification.",
+      "path": "Assets/Garden/Audio/Story/Civic020.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Scheduled services are unavailable.",
+      "path": "Assets/Garden/Audio/Story/Civic021.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "The doors are secured. Your service to the next station is ready to depart.",
+      "path": "Assets/Garden/Audio/Story/Civic022.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "The returned sample is unsuitable for public presentation.",
+      "path": "Assets/Garden/Audio/Story/Civic023.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "This component is not assigned to you.",
+      "path": "Assets/Garden/Audio/Story/Civic024.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "This route is not included in your service agreement.",
+      "path": "Assets/Garden/Audio/Story/Civic025.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "This station is being made safe.",
+      "path": "Assets/Garden/Audio/Story/Civic026.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "This station is being made safe. Please acknowledge the service inspection.",
+      "path": "Assets/Garden/Audio/Story/Civic027.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Tomorrow is prepared. Breakfast at Commons, Assembly at nine, and evening service at home.",
+      "path": "Assets/Garden/Audio/Story/Civic028.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Welcome aboard. Close the doors and confirm departure when you are ready.",
+      "path": "Assets/Garden/Audio/Story/Civic029.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Welcome home. Order your evening meal at the receiver.",
+      "path": "Assets/Garden/Audio/Story/Civic030.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Welcome home. Your evening meal service is ready.",
+      "path": "Assets/Garden/Audio/Story/Civic031.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "You can remain here.",
+      "path": "Assets/Garden/Audio/Story/Civic032.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "You don't need to leave to see it.",
+      "path": "Assets/Garden/Audio/Story/Civic033.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Your appearance is within your preferred range.",
+      "path": "Assets/Garden/Audio/Story/Civic034.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Your evening meal is available from the receiver.",
+      "path": "Assets/Garden/Audio/Story/Civic035.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Your evening meal is on its way.",
+      "path": "Assets/Garden/Audio/Story/Civic036.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Your meal is ready at the receiver. Enjoy your evening.",
+      "path": "Assets/Garden/Audio/Story/Civic037.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Your presentation preferences have been retained.",
+      "path": "Assets/Garden/Audio/Story/Civic038.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Your shift is complete. The pedestrian arcade will take you home through Commons.",
+      "path": "Assets/Garden/Audio/Story/Civic039.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Your station is ready at Assembly. Please follow the illuminated route.",
+      "path": "Assets/Garden/Audio/Story/Civic040.wav"
+    },
+    {
+      "speaker": "CIVIC",
+      "text": "Your usual is ready. Please collect your breakfast from the counter.",
+      "path": "Assets/Garden/Audio/Story/Civic041.wav"
+    },
+    {
+      "speaker": "CONTROLS",
+      "text": "Checkpoint. Stay behind cover when a camera is facing you.",
+      "path": "Assets/Garden/Audio/Story/Controls001.wav"
+    },
+    {
+      "speaker": "DRONE",
+      "text": "Citizen identified. Please remain available for assistance.",
+      "path": "Assets/Garden/Audio/Story/Drone001.wav"
+    },
+    {
+      "speaker": "GLOVE",
+      "text": "Aim your palm at a nearby sensor. Keep a clear view.",
+      "path": "Assets/Garden/Audio/Story/Glove001.wav"
+    },
+    {
+      "speaker": "GLOVE",
+      "text": "Close doors",
+      "path": "Assets/Garden/Audio/Story/Glove002.wav"
+    },
+    {
+      "speaker": "GLOVE",
+      "text": "Doors locked",
+      "path": "Assets/Garden/Audio/Story/Glove003.wav"
+    },
+    {
+      "speaker": "GLOVE",
+      "text": "Hold your palm on the target until LOCK appears.",
+      "path": "Assets/Garden/Audio/Story/Glove004.wav"
+    },
+    {
+      "speaker": "GLOVE",
+      "text": "Local maintenance mode required.",
+      "path": "Assets/Garden/Audio/Story/Glove005.wav"
+    },
+    {
+      "speaker": "GLOVE",
+      "text": "Open doors",
+      "path": "Assets/Garden/Audio/Story/Glove006.wav"
+    },
+    {
+      "speaker": "GLOVE",
+      "text": "Pulse charging.",
+      "path": "Assets/Garden/Audio/Story/Glove007.wav"
+    },
+    {
+      "speaker": "GLOVE",
+      "text": "Service interrupted",
+      "path": "Assets/Garden/Audio/Story/Glove008.wav"
+    },
+    {
+      "speaker": "GLOVE",
+      "text": "Service offline",
+      "path": "Assets/Garden/Audio/Story/Glove009.wav"
+    },
+    {
+      "speaker": "MARA",
+      "text": "Did you find anything else?",
+      "path": "Assets/Garden/Audio/Story/Mara001.wav"
+    },
+    {
+      "speaker": "MARA",
+      "text": "Keep it. Bring it back sometime, if you want.",
+      "path": "Assets/Garden/Audio/Story/Mara002.wav"
+    },
+    {
+      "speaker": "MARA",
+      "text": "My display says everything is fine. Are you all right?",
+      "path": "Assets/Garden/Audio/Story/Mara003.wav"
+    },
+    {
+      "speaker": "MARA",
+      "text": "Oh. I thought the wrapper was wrong.",
+      "path": "Assets/Garden/Audio/Story/Mara004.wav"
+    },
+    {
+      "speaker": "MARA",
+      "text": "There's room here, if you want.",
+      "path": "Assets/Garden/Audio/Story/Mara005.wav"
+    },
+    {
+      "speaker": "MARA",
+      "text": "They changed the steam again. Mine used to make a little heart.",
+      "path": "Assets/Garden/Audio/Story/Mara006.wav"
+    },
+    {
+      "speaker": "MARA",
+      "text": "You can put that here. The table's less wobbly on this side.",
+      "path": "Assets/Garden/Audio/Story/Mara007.wav"
+    },
+    {
+      "speaker": "METRO",
+      "text": "Next stop: Residence.",
+      "path": "Assets/Garden/Audio/Story/Metro001.wav"
+    },
+    {
+      "speaker": "METRO",
+      "text": "Next stop: Work.",
+      "path": "Assets/Garden/Audio/Story/Metro002.wav"
+    },
+    {
+      "speaker": "NEWS",
+      "text": "More room to be yourself. This week, residents can choose from twelve new horizon experiences.",
+      "path": "Assets/Garden/Audio/Story/News001.wav"
+    },
+    {
+      "speaker": "NEWS",
+      "text": "More room to be yourself. This week, residents can choose from twelve new horizon experiences. Perimeter access remains unnecessary while exterior services are unavailable.",
+      "path": "Assets/Garden/Audio/Story/News002.wav"
+    },
+    {
+      "speaker": "NOOR",
+      "text": "A little is enough. That one came up by itself.",
+      "path": "Assets/Garden/Audio/Story/Noor001.wav"
+    },
+    {
+      "speaker": "NOOR",
+      "text": "All right. You don't have to explain yet.",
+      "path": "Assets/Garden/Audio/Story/Noor002.wav"
+    },
+    {
+      "speaker": "NOOR",
+      "text": "Careful. That slab moves. You came through the gate?",
+      "path": "Assets/Garden/Audio/Story/Noor003.wav"
+    },
+    {
+      "speaker": "NOOR",
+      "text": "Stay as long as you like.",
+      "path": "Assets/Garden/Audio/Story/Noor004.wav"
+    },
+    {
+      "speaker": "NOOR",
+      "text": "There's food, if you're hungry. Or have a look around. We'll be here.",
+      "path": "Assets/Garden/Audio/Story/Noor005.wav"
+    },
+    {
+      "speaker": "NOOR",
+      "text": "There's water here. Take your time.",
+      "path": "Assets/Garden/Audio/Story/Noor006.wav"
+    },
+    {
+      "speaker": "NOOR",
+      "text": "You brought a cup. There's water here.",
+      "path": "Assets/Garden/Audio/Story/Noor007.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "Calibrate at the mirror. Trace the seam to expose the socket.",
+      "path": "Assets/Garden/Audio/Story/Service001.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "Calibrate the glove at a mirror first.",
+      "path": "Assets/Garden/Audio/Story/Service002.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "Connect the bridge to the forearm port first.",
+      "path": "Assets/Garden/Audio/Story/Service003.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "Contact calibrated. Raw reference saved.",
+      "path": "Assets/Garden/Audio/Story/Service004.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "Current exterior survey: vegetation, a gate, habitation. Mirror contact trace requires calibration.",
+      "path": "Assets/Garden/Audio/Story/Service005.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "Current exterior survey: vegetation, a gate, habitation. Trace calibrated. The concourse hatch is a physical door.",
+      "path": "Assets/Garden/Audio/Story/Service006.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "First isolate the remote actuator.",
+      "path": "Assets/Garden/Audio/Story/Service007.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "First isolate the remote actuator. Turn the selector to Local.",
+      "path": "Assets/Garden/Audio/Story/Service008.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "Inner door requires local control. The bridge switch is separate from installation.",
+      "path": "Assets/Garden/Audio/Story/Service009.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "Latch released. Forearm bridge inside.",
+      "path": "Assets/Garden/Audio/Story/Service010.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "Local maintenance mode active.",
+      "path": "Assets/Garden/Audio/Story/Service011.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "Local maintenance mode. Network connection unavailable.",
+      "path": "Assets/Garden/Audio/Story/Service012.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "No diagnostic contact.",
+      "path": "Assets/Garden/Audio/Story/Service013.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "No exterior sample recorded. Mirror contact trace requires calibration.",
+      "path": "Assets/Garden/Audio/Story/Service014.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "No exterior sample recorded. Trace calibrated. The concourse hatch is a physical door.",
+      "path": "Assets/Garden/Audio/Story/Service015.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "Pull the bypass lever. Wait for the gauge to reach SAFE.",
+      "path": "Assets/Garden/Audio/Story/Service016.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "Service hatch exposed. Fit the glove to the socket to release the latch.",
+      "path": "Assets/Garden/Audio/Story/Service018.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "Take the bridge and equip the service glove first.",
+      "path": "Assets/Garden/Audio/Story/Service019.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "The chamber is equalizing. Wait for SAFE.",
+      "path": "Assets/Garden/Audio/Story/Service020.wav"
+    },
+    {
+      "speaker": "SERVICE",
+      "text": "The service reader requires Local maintenance mode.",
+      "path": "Assets/Garden/Audio/Story/Service021.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "At work: reject, accept, reject. Watch the arms. Not the score.",
+      "path": "Assets/Garden/Audio/Story/Signal001.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "Do you remember an unfiltered sky?",
+      "path": "Assets/Garden/Audio/Story/Signal002.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "I could give you a name. You couldn't check it.",
+      "path": "Assets/Garden/Audio/Story/Signal003.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "I don't know enough to promise that.",
+      "path": "Assets/Garden/Audio/Story/Signal004.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "I'm using one. Yes. I know that isn't an answer.",
+      "path": "Assets/Garden/Audio/Story/Signal005.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "Keep the glove. There's a service face behind every approved one.",
+      "path": "Assets/Garden/Audio/Story/Signal006.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "Put that against the mirror. Then follow what the reflection keeps.",
+      "path": "Assets/Garden/Audio/Story/Signal007.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "Same batch. Different picture.",
+      "path": "Assets/Garden/Audio/Story/Signal008.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "Start with the mirror. That's something you can test.",
+      "path": "Assets/Garden/Audio/Story/Signal009.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "The room hasn't become smaller.",
+      "path": "Assets/Garden/Audio/Story/Signal017.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "There you are. Don't be afraid of reality. This isn't it, either. This is a way to reach you. The mirror remembers. The wall holds your way out. Don't take my word for it. Look. Put that against the mirror. Then follow what the reflection keeps.",
+      "path": "Assets/Garden/Audio/Story/Signal010.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "There you are. Don't be afraid of reality. This isn't it, either. This is a way to reach you. The mirror remembers. The wall holds your way out. Don't take my word for it. Look. There's a service glove at your station. Reject, accept, reject. Watch what moves.",
+      "path": "Assets/Garden/Audio/Story/Signal011.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "There you are. Don't be afraid of reality. This isn't it, either. This is a way to reach you. The mirror remembers. The wall holds your way out. Don't take my word for it. Look. You found it. The bridge gives you local control. What you do with that is yours.",
+      "path": "Assets/Garden/Audio/Story/Signal012.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "There's a service glove at your station. Reject, accept, reject. Watch what moves.",
+      "path": "Assets/Garden/Audio/Story/Signal013.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "X. Check. X. Watch the arms.",
+      "path": "Assets/Garden/Audio/Story/Signal014.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "You can stop here.",
+      "path": "Assets/Garden/Audio/Story/Signal015.wav"
+    },
+    {
+      "speaker": "SIGNAL",
+      "text": "You found it. The bridge gives you local control. What you do with that is yours.",
+      "path": "Assets/Garden/Audio/Story/Signal016.wav"
+    },
+    {
+      "speaker": "STATION",
+      "text": "Batch complete. Review the last sample to inspect it again.",
+      "path": "Assets/Garden/Audio/Story/Station001.wav"
+    },
+    {
+      "speaker": "STATION",
+      "text": "Classify the two components on the belt first.",
+      "path": "Assets/Garden/Audio/Story/Station002.wav"
+    },
+    {
+      "speaker": "STATION",
+      "text": "Public production offline.",
+      "path": "Assets/Garden/Audio/Story/Station003.wav"
+    },
+    {
+      "speaker": "STATION",
+      "text": "Rehearsal reset. Reject, accept, reject.",
+      "path": "Assets/Garden/Audio/Story/Station004.wav"
+    }
+  ]
+}
