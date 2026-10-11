@@ -14,8 +14,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dev Scenes/VR Scene.unity
     guid: ba85a917207771d4084e760e53dc50f3
+  - enabled: 1
+    path: Assets/Scenes/Garden.unity
+    guid: 978d86c027a67414abe3d3a0ce84075b
+  - enabled: 1
+    path: Assets/Scenes/RealityStory.unity
+    guid: 5134dfb02791008429c23862ee6c2dfe
+  - enabled: 1
+    path: Assets/Scenes/Playground.unity
+    guid: 9560360f517b539cbe2660f15487a7a3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 45ff30571fc40884285ad94d8800028b, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 646310d6bac0f4949af4a7303db95e7e, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6588d44093a7beb46af05d2800e6aa36, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 32d6707f3ab583544856dd66565d4a8a, type: 2}
   m_UseUCBPForAssetBundles: 0
