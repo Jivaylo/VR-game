@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 2883725619264007490}
   - component: {fileID: 8976236459244628079}
   - component: {fileID: 7332886637076906700}
+  - component: {fileID: 4942010833950064371}
+  - component: {fileID: 429774096416243675}
+  - component: {fileID: 1498285714938852640}
   m_Layer: 0
   m_Name: LIDARTEST
   m_TagString: Untagged
@@ -143,6 +146,102 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   r3dPath: C:\Users\allar\Documents\GitHub\VR-game\Assets\LIDAR 3d System\Assets\TestLidar.r3d
   streamEffect: {fileID: 2883725619264007490}
+--- !u!114 &4942010833950064371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7675420260874338711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a1c1f283f854ba4bcb0ef812a590348, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  playback: {fileID: 7332886637076906700}
+  shader: {fileID: 4800000, guid: 75d9a5c9ef2c4417b9a7c9a8dd704e58, type: 3}
+  nearDepth: 0
+  farDepth: 5
+  sampleStride: 2
+  androidSampleStride: 4
+  sizeMode: 0
+  particleSize: 1.25
+  minScreenSize: 1.5
+  maxScreenSize: 32
+  blendMode: 1
+  writeDepth: 1
+  shape: 0
+  opacity: 1
+  hologramColor: {r: 1, g: 1, b: 1, a: 1}
+  monochrome: 0
+  glowIntensity: 0
+  edgeFilter: 0
+  correctMirroring: 0
+  hideOriginalVfx: 1
+--- !u!114 &429774096416243675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7675420260874338711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bbaf4b343712f94ea8daa36bcdb3c78, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  playback: {fileID: 7332886637076906700}
+  shader: {fileID: 4800000, guid: 9c8ec2709e4689c43812a519989373af, type: 3}
+  projectorShader: {fileID: 4800000, guid: 57b5897145604deb85e793ce89c00163, type: 3}
+  preset: 1
+  advanced:
+    blending: 2
+    sorting: 0
+    depthClipping:
+      nearDepth: 0.3
+      farDepth: 1.2
+    masking:
+      useCropBox: 0
+      cropCenter: {x: 0, y: -0.1, z: -0.75}
+      cropSize: {x: 1.4, y: 1.8, z: 1}
+      isolateSubject: 1
+      connectionTolerance: 0.04
+      keepRegionsLargerThan: 0.2
+      edgeFilter: 0.05
+    performance:
+      questDensity: 1
+      questFrontSurfaceSorting: 1
+      questSubjectIsolation: 1
+    correctMirroring: 0
+    hideOtherRenderers: 1
+  appliedPreset_: 1
+  hasCustomLook_: 0
+--- !u!114 &1498285714938852640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7675420260874338711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52875499c260441ca82a664088b14069, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  playback: {fileID: 7332886637076906700}
+  hologram: {fileID: 429774096416243675}
+  startTime: 0
+  endTime: 0
+  playbackSpeed: 1
+  loopMode: 0
+  loopCount: 3
+  loopBlend: 0.3
+  playOnEnable: 1
+  powerUpOnStart: 1
+  powerUpDuration: 1.2
+  powerDownDuration: 2
+  whenFinished: 0
+  takeOverFromTimeline: 1
 --- !u!1 &9093613270455525999
 GameObject:
   m_ObjectHideFlags: 0

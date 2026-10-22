@@ -60,7 +60,9 @@ namespace Record3D
         private const string LIBRARY_NAME = "librecord3d_unity_streaming.so";
 
 #else
-#error "Unsupported platform!"
+        // No streaming library exists for this platform (e.g. Android / Meta Quest). This used to be an
+        // #error, which broke the whole player build; calls now fail with DllNotFoundException instead.
+        private const string LIBRARY_NAME = "record3d_unity_streaming";
 #endif
 
         [DllImport(LIBRARY_NAME)]

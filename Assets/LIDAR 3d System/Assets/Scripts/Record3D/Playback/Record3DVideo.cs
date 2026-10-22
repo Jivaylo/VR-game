@@ -30,6 +30,18 @@ public class Record3DVideo
     /// The intrinsic matrix coefficients.
     /// </summary>
     private float fx_, fy_, tx_, ty_;
+    public float fx { get { return fx_; } }
+    public float fy { get { return fy_; } }
+    public float tx { get { return tx_; } }
+    public float ty { get { return ty_; } }
+
+    /// <summary>
+    /// Resolution of the recorded depth map (0 for recordings whose metadata does not store it).
+    /// The decoder upsamples depth to width x height, so each depth sample covers several texels.
+    /// </summary>
+    private int depthWidth_, depthHeight_;
+    public int depthWidth { get { return depthWidth_; } }
+    public int depthHeight { get { return depthHeight_; } }
 
     private ZipArchive underlyingZip_;
 
@@ -42,18 +54,26 @@ public class Record3DVideo
     {
         public int w;
         public int h;
+        public int dw;
+        public int dh;
         public List<float> K;
         public int fps;
     }
 
 #if UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX
     private const string LIBRARY_NAME = "librecord3d_unity_playback.dylib";
+    public static readonly bool isDecoderAvailable = true;
 
 #elif UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
         private const string LIBRARY_NAME = "record3d_unity_playback.dll";
+    public static readonly bool isDecoderAvailable = true;
 
 #else
-#error "Unsupported platform!"
+    // The Record3D decoder only ships as a Windows .dll and a macOS .dylib, so .r3d files cannot be
+    // decoded on other platforms (e.g. Android / Meta Quest). This used to be an #error, which broke
+    // the whole player build; now it compiles and Record3DPlayback reports the problem at runtime.
+    private const string LIBRARY_NAME = "record3d_unity_playback";
+    public static readonly bool isDecoderAvailable = false;
 #endif
 
     [DllImport(LIBRARY_NAME)]
@@ -74,6 +94,8 @@ public class Record3DVideo
             this.fps_ = parsedMetadata.fps;
             this.width_ = parsedMetadata.w;
             this.height_ = parsedMetadata.h;
+            this.depthWidth_ = parsedMetadata.dw;
+            this.depthHeight_ = parsedMetadata.dh;
 
             // Init the intrinsic matrix coeffs
             this.fx_ = parsedMetadata.K[0];

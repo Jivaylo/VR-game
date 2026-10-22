@@ -21,13 +21,23 @@ public partial class Record3DPlayback : MonoBehaviour
     private Texture2D positionTex;
     private Texture2D colorTex;
 
+    /// <summary>Per-texel positions in the recording camera's space (xyz, NaN where there is no depth).</summary>
+    public Texture2D positionTexture { get { return positionTex; } }
+    public Texture2D colorTexture { get { return colorTex; } }
+    /// <summary>The loaded recording (intrinsics, resolution), or null before a video is loaded.</summary>
+    public Record3DVideo video { get { return currentVideo_; } }
+    /// <summary>Index of the frame currently in the textures, or -1 before one is loaded.</summary>
+    public int loadedFrame { get { return loadedFrame_; } }
+
     // Playback
     private int currentFrame_ = 0;
+    private int loadedFrame_ = -1;
     private bool isPlaying_ = false;
     private Record3DVideo currentVideo_ = null;
     private Timer videoFrameUpdateTimer_ = null;
     private bool shouldRefresh_ = false;
     private string lastLoadedVideoPath_ = null;
+    private bool reportedMissingDecoder_ = false;
 
 
     void ReinitializeTextures(int width, int height)
@@ -48,14 +58,19 @@ public partial class Record3DPlayback : MonoBehaviour
             filterMode = FilterMode.Point
         };
 
+        loadedFrame_ = -1;
+
         int numParticles = width * height;
         if (streamEffect == null)
         {
             streamEffect = gameObject.GetComponent<VisualEffect>();
         }
-        streamEffect.SetInt("Number of Particles", numParticles);
-        streamEffect.SetTexture("Particle Position Texture", positionTex);
-        streamEffect.SetTexture("Particle Color Texture", colorTex);
+        if (streamEffect != null)
+        {
+            streamEffect.SetInt("Number of Particles", numParticles);
+            streamEffect.SetTexture("Particle Position Texture", positionTex);
+            streamEffect.SetTexture("Particle Color Texture", colorTex);
+        }
     }
 
     void Update()
@@ -103,6 +118,16 @@ public partial class Record3DPlayback
             return;
         }
 
+        if (!Record3DVideo.isDecoderAvailable)
+        {
+            if (!reportedMissingDecoder_)
+            {
+                Debug.LogError("Record3DPlayback: the Record3D .r3d decoder is only available on Windows and macOS, so '" + path + "' cannot be played on this platform.", this);
+                reportedMissingDecoder_ = true;
+            }
+            return;
+        }
+
         var wasPlaying = isPlaying_;
         Pause();
 
@@ -147,11 +172,21 @@ public partial class Record3DPlayback
     {
         // Load the data from the archive
         ReloadVideoIfNeeded();
+        if (currentVideo_ == null)
+        {
+            return;
+        }
 
-        if (streamEffect)
+        // Timeline calls this every rendered frame (72-120 Hz in VR), more often than the video
+        // changes frames, so skip decoding and uploading the same frame again.
+        if (frameNumber == loadedFrame_)
+        {
+            return;
+        }
 
         currentVideo_.LoadFrameData(frameNumber);
         currentFrame_ = frameNumber;
+        loadedFrame_ = frameNumber;
 
         // Update the textures
         var positionTexBufferSize = positionTex.width * positionTex.height * 4;
