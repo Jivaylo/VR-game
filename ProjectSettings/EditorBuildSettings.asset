@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Garden.unity
     guid: 978d86c027a67414abe3d3a0ce84075b
   - enabled: 1
-    path: Assets/Scenes/RealityStory.unity
+    path: Assets/Scenes/Prototype Allard.unity
     guid: 5134dfb02791008429c23862ee6c2dfe
   - enabled: 1
     path: Assets/Scenes/Playground.unity
