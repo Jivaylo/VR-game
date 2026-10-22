@@ -269,7 +269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7332886637076906700, guid: f1699048edd2c9549a6ad8c4429c8b2b, type: 3}
       propertyPath: r3dPath
-      value: C:\Users\allar\Documents\GitHub\VR-game\Assets\LIDAR 3d System\Assets\Testlidar2.r3d
+      value: Assets\LIDAR 3d System\Assets\Testlidar2.r3d
       objectReference: {fileID: 0}
     - target: {fileID: 7675420260874338711, guid: f1699048edd2c9549a6ad8c4429c8b2b, type: 3}
       propertyPath: m_Name
